@@ -55,7 +55,7 @@ footer {
 }
 
 #primair {
-    display: inline;
+    display: none;
 }
 
 #gaming {
@@ -63,9 +63,80 @@ footer {
 }
 
 #luxe {
-    display: none;
+    display: inline;
 }
 
 h2 {
     font-family: 'Noto Serif SC', serif;
+}
+
+.geheel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#eerste {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+    background-color: gold;
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+#tweede {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1;
+    background-color: gold;
+    border: 3px solid gray;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+}
+
+#derde {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 1;
+    background-color: gold;
+    border: 3px solid gray;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+}
+
+#vierde {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    background-color: gold;
+    border: 3px solid gray;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+}
+
+#vijfde {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    background-color: gold;
+    border: 3px solid gray;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+}
+
+#zesde {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2;
+    background-color: gold;
+    border: 3px solid gray;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
 }

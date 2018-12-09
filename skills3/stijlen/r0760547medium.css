@@ -56,11 +56,11 @@ footer {
 }
 
 #primair {
-    display: inline;
+    display: none;
 }
 
 #gaming {
-    display: none;
+    display: inline;
 }
 
 #luxe {
