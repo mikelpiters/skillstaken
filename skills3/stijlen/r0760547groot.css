@@ -1,0 +1,67 @@
+#primair {
+    display: none;
+}
+
+#gaming {
+    display: none;
+}
+
+#luxe {
+    display: inline;
+}
+
+* {
+    background-color: goldenrod;
+}
+
+#image {
+    background-image: url(../afbeeldingen/Luxefoto.jpg);
+    background-repeat: no-repeat;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+p {
+    padding: 10px 0px;
+}
+
+#image {
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    background-color: #fff;
+    color: #000;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#primair {
+    display: inline;
+}
+
+#gaming {
+    display: none;
+}
+
+#luxe {
+    display: none;
+}
