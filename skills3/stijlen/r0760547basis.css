@@ -31,6 +31,7 @@ footer {
     text-align: right;
     font-weight: bold;
     padding: 10px;
+    font-style: italic;
 }
 
 #primair {
@@ -52,4 +53,15 @@ footer {
 #image {
     background-image: url(../afbeeldingen/crisisfoto.jpg);
     background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div {
+    width: 300;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
 }
